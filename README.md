@@ -1,8 +1,8 @@
 # GeneticAlgorithm
 
 Qatar, population 40, mutation rate 15%  
-Use above preset? (y/n) 
-y
+Use above preset? (y/n)  
+y  
 After 1 generations:  
 Current best distance: 86561.8  
 After 0 generations:  
@@ -49,9 +49,9 @@ After 19 generations:
 Current best distance: 70058.7  
 After 5 generations:  
 Current best distance: 68581.4  
-Achieved a improvement factor
+Achieved a improvement factor  
 The best distance is 68581.4  
 The improvement is 20.8841%  
-Current best distance: 68590.5
-Achieved a improvement factor
-The best distance is 68590.5
+Current best distance: 68590.5  
+Achieved a improvement factor  
+The best distance is 68590.5  
