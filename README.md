@@ -38,4 +38,3 @@ After 122 generations:
 Current best distance: 68590.5
 Achieved a improvement factor
 The best distance is 68590.5
-The improvement is 20.3593%

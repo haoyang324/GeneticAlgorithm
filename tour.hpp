@@ -29,13 +29,13 @@ public:
 
 public:
 
-    tour(){};
+    tour() = default;;
 
     explicit tour(int number_of_cities);
 
     explicit tour(string citys_in_tour);
 
-    tour(vector<city> the_city_list);
+    explicit tour(vector<city> the_city_list);
 
     vector<city> get_city_list();
 
