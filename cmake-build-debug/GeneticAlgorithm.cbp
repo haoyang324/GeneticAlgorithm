@@ -82,7 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/city.cpp">
+			<Option target="GeneticAlgorithm"/>
+		</Unit>
+		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/city.hpp">
+			<Option target="GeneticAlgorithm"/>
+		</Unit>
 		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/main.cpp">
+			<Option target="GeneticAlgorithm"/>
+		</Unit>
+		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/population.cpp">
+			<Option target="GeneticAlgorithm"/>
+		</Unit>
+		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/population.hpp">
+			<Option target="GeneticAlgorithm"/>
+		</Unit>
+		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/tour.cpp">
+			<Option target="GeneticAlgorithm"/>
+		</Unit>
+		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/tour.hpp">
 			<Option target="GeneticAlgorithm"/>
 		</Unit>
 		<Unit filename="/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/CMakeLists.txt">

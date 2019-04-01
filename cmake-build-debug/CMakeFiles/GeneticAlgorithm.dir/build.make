@@ -70,17 +70,62 @@ CMakeFiles/GeneticAlgorithm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeneticAlgorithm.dir/main.cpp.s"
 	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/main.cpp -o CMakeFiles/GeneticAlgorithm.dir/main.cpp.s
 
+CMakeFiles/GeneticAlgorithm.dir/city.cpp.o: CMakeFiles/GeneticAlgorithm.dir/flags.make
+CMakeFiles/GeneticAlgorithm.dir/city.cpp.o: ../city.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GeneticAlgorithm.dir/city.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeneticAlgorithm.dir/city.cpp.o -c /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/city.cpp
+
+CMakeFiles/GeneticAlgorithm.dir/city.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeneticAlgorithm.dir/city.cpp.i"
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/city.cpp > CMakeFiles/GeneticAlgorithm.dir/city.cpp.i
+
+CMakeFiles/GeneticAlgorithm.dir/city.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeneticAlgorithm.dir/city.cpp.s"
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/city.cpp -o CMakeFiles/GeneticAlgorithm.dir/city.cpp.s
+
+CMakeFiles/GeneticAlgorithm.dir/tour.cpp.o: CMakeFiles/GeneticAlgorithm.dir/flags.make
+CMakeFiles/GeneticAlgorithm.dir/tour.cpp.o: ../tour.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GeneticAlgorithm.dir/tour.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeneticAlgorithm.dir/tour.cpp.o -c /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/tour.cpp
+
+CMakeFiles/GeneticAlgorithm.dir/tour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeneticAlgorithm.dir/tour.cpp.i"
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/tour.cpp > CMakeFiles/GeneticAlgorithm.dir/tour.cpp.i
+
+CMakeFiles/GeneticAlgorithm.dir/tour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeneticAlgorithm.dir/tour.cpp.s"
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/tour.cpp -o CMakeFiles/GeneticAlgorithm.dir/tour.cpp.s
+
+CMakeFiles/GeneticAlgorithm.dir/population.cpp.o: CMakeFiles/GeneticAlgorithm.dir/flags.make
+CMakeFiles/GeneticAlgorithm.dir/population.cpp.o: ../population.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GeneticAlgorithm.dir/population.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeneticAlgorithm.dir/population.cpp.o -c /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/population.cpp
+
+CMakeFiles/GeneticAlgorithm.dir/population.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeneticAlgorithm.dir/population.cpp.i"
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/population.cpp > CMakeFiles/GeneticAlgorithm.dir/population.cpp.i
+
+CMakeFiles/GeneticAlgorithm.dir/population.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeneticAlgorithm.dir/population.cpp.s"
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/population.cpp -o CMakeFiles/GeneticAlgorithm.dir/population.cpp.s
+
 # Object files for target GeneticAlgorithm
 GeneticAlgorithm_OBJECTS = \
-"CMakeFiles/GeneticAlgorithm.dir/main.cpp.o"
+"CMakeFiles/GeneticAlgorithm.dir/main.cpp.o" \
+"CMakeFiles/GeneticAlgorithm.dir/city.cpp.o" \
+"CMakeFiles/GeneticAlgorithm.dir/tour.cpp.o" \
+"CMakeFiles/GeneticAlgorithm.dir/population.cpp.o"
 
 # External object files for target GeneticAlgorithm
 GeneticAlgorithm_EXTERNAL_OBJECTS =
 
 GeneticAlgorithm: CMakeFiles/GeneticAlgorithm.dir/main.cpp.o
+GeneticAlgorithm: CMakeFiles/GeneticAlgorithm.dir/city.cpp.o
+GeneticAlgorithm: CMakeFiles/GeneticAlgorithm.dir/tour.cpp.o
+GeneticAlgorithm: CMakeFiles/GeneticAlgorithm.dir/population.cpp.o
 GeneticAlgorithm: CMakeFiles/GeneticAlgorithm.dir/build.make
 GeneticAlgorithm: CMakeFiles/GeneticAlgorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GeneticAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/haoyangwang/Workspaces/CLionProjects/GeneticAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GeneticAlgorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GeneticAlgorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
