@@ -6,7 +6,7 @@
 
 #include "population.hpp"
 
-std::default_random_engine myRand((unsigned) time(0));
+std::default_random_engine myRand((unsigned) time(nullptr));
 
 population::population(tour the_tour, int population_size, double the_mutation_rate) {
     mutation_rate = the_mutation_rate;
@@ -24,7 +24,7 @@ population::population(tour the_tour, int population_size, double the_mutation_r
 void population::update_parents() {
     parents.clear();
     for (int i = 0; i < PARENT_POOL_SIZE; i++) {
-        int size = static_cast<int>(tours.size() - 1);
+        auto size = static_cast<int>(tours.size() - 1);
         int index = myRand() % size + 1;
         tour temp = tours[index];
         parents.push_back(temp);
@@ -32,17 +32,19 @@ void population::update_parents() {
 }
 
 tour population::crossover() {
+    //generate index for parent
     int a;
     int b;
     do {
         a = myRand() % PARENT_POOL_SIZE;
         b = myRand() % PARENT_POOL_SIZE;
     } while (a == b);
+
     vector<city> cities_a = parents[a].get_city_list();
     vector<city> cities_b = parents[b].get_city_list();
     vector<city> child_cities;
 
-    int number_of_cities = static_cast<int>(cities_a.size());
+    auto number_of_cities = static_cast<int>(cities_a.size());
 
     int indexStart = myRand() % number_of_cities;
     int indexEnd = myRand() % number_of_cities;
@@ -59,7 +61,7 @@ tour population::crossover() {
 
     for (int j = 0; j < number_of_cities; j++) {
         bool tag = true;
-        int size = static_cast<int>(child_cities.size());
+        auto size = static_cast<int>(child_cities.size());
         for (int n = 0; n < size; n++) {
             if (cities_b[j].getCityNumber() == child_cities[n].getCityNumber()) {
                 tag = false;
@@ -125,10 +127,12 @@ void population::GA() {
             elite_tour = tours[0];
 
         }
+
+        //display only improved data
         double current_total_distance = elite_tour.get_total_distance();
         if (previous_total_distance != current_total_distance) {
-            cout << "After " << generations_between_elites << " generations: "<< endl;
-            cout << "Current best distance: " << current_total_distance << endl;
+            cout << "After " << generations_between_elites << " generations:  "<< endl;
+            cout << "Current best distance: " << current_total_distance << "  "<< endl;
             previous_total_distance = current_total_distance;
             generations_between_elites = 0;
         } else {
@@ -139,8 +143,8 @@ void population::GA() {
 
         if ((improve_factor > IMPROVEMENT_FACTOR) && i > 950) {
             cout << "Achieved a improvement factor" << endl;
-            cout << "The best distance is " << elite_tour.get_total_distance() << endl;
-            cout << "The improvement is " << improve_factor << "%" << endl;
+            cout << "The best distance is " << elite_tour.get_total_distance() << "  " << endl;
+            cout << "The improvement is " << improve_factor << "%  " << endl;
             break;
         }
     }
